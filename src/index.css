@@ -1,6 +1,6 @@
 *{
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
+  margin: 0%;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,4 +10,28 @@ body{
   align-items: center;
   justify-content: center;
   gap: 50px;
+  background-color: rgba(245, 245, 220, 0.76);
+  margin-bottom: 50px;
+  background-image: url('/artistic-vintage-flower-background-serene-ai-generated-photo (2).jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
+  p{
+    color: rgb(0, 0, 7);
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+  }
+  h2 {
+    padding: 15px;
+    
+    border-radius: 5px;
+  }
+  h3{
+    padding: 0px;
+    
+  }
+  

@@ -1,5 +1,44 @@
 .title{
-  color: rgb(105, 23, 23);
-  width: 100%;
   text-align: center;
+  font-size: 40px;
+  color: #721515;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+ 
+}
+.wrap{
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  padding: 10px;
+  border: none;
+  border: #8f4e4e;
+  font-size: 18px;
+  border-radius: 999px;
+}
+.wrapResps{
+  background-color: rgba(146, 67, 67, 0.692);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  color: #110808;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+}
+.wrapAll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.wrapResps h2{
+font-size: 24px;
+color: black;
+}
+.wrapResps h3{
+font-size: 20px;
+color: black;
 }

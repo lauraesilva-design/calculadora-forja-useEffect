@@ -21,7 +21,7 @@ const[respMult, setRespMult] = useState()
       setRespDiv(parseFloat(n1) / parseFloat(n2))
       setRespMult(parseFloat(n1) * parseFloat(n2))
 
-      setError('')
+      setError('Digite valores númericos para calcular')
     } else {
       setError('Digite valores númericos para calcular')
     }
@@ -30,11 +30,11 @@ const[respMult, setRespMult] = useState()
 
   
   return (
-    <>
+    <div className={style.wrapAll}>
       <h1 className={style.title}>Calculadora</h1>
       <p>{error}</p>
       <div className={style.wrap}>
-        <p>Soma</p>
+        <p></p>
         <input type="number" onChange={(e) => setN1(e.target.value)} value={n1} placeholder='Insira um número' />
         <input type="number" onChange={(e) => setN2(e.target.value)} value={n2} placeholder='Insira outro número' />
       </div>
@@ -50,16 +50,16 @@ const[respMult, setRespMult] = useState()
       </div>
 
       <div className={style.wrapResps}>
-        <h2>Resultado da Subtracao</h2>
+        <h2>Resultado da Divisao</h2>
         <h3>{respDiv}</h3>
       </div>
 
       <div className={style.wrapResps}>
-        <h2>Resultado da Subtracao</h2>
+        <h2>Resultado da Multiplicacao</h2>
         <h3>{respMult}</h3>
       </div>
 
-    </>
+    </div>
   )
 }
 
